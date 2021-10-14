@@ -1,0 +1,380 @@
+.logoSection .imgSection::before {
+	background-image: url("../images/moonBg.svg");
+	position: absolute;
+	content: "";
+	width: 500px;
+	height: 500px;
+	left: 0%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 0;
+}
+.logoSection .imgSection {
+	position: relative;
+}
+.logoSection .imgSection img {
+	position: relative;
+	z-index: 1;
+	width: 500px;
+	top: -5%;
+}
+.logoSection {
+	display: grid;
+	grid-template-columns: auto 1fr;
+}
+.nameSection {
+	font-family: "Black Han Sans", Arial, Helvetica, sans-serif;
+	font-size: 90px;
+	color: #fff;
+	padding-top: 5rem;
+}
+.discordBtn {
+	background-color: #5865f2;
+	color: #fff;
+	font-family: "Black Han Sans", Arial, Helvetica, sans-serif;
+	border-radius: 10px;
+	border: none;
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+	cursor: pointer;
+	font-size: 20px;
+	justify-self: start;
+}
+.discordLogo {
+	width: 40px;
+	margin-right: 10px;
+}
+.introTextArea {
+	grid-template-columns: 100%;
+	display: grid;
+	align-self: center;
+	width: 60%;
+}
+.introText {
+	font-family: "Black Han Sans", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #fff;
+	text-align: left;
+	justify-self: center;
+}
+.introSection {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.sliderImg {
+	width: 350px;
+	height: 350px;
+	background-image: url("../images/nfts/1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nftSliderArea::before {
+	background-image: url("../images/headBand.png");
+	position: absolute;
+	content: "";
+	width: 150px;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 0;
+	top: -23%;
+	right: -9%;
+	transform: rotate(15deg);
+}
+.nftSliderArea {
+	position: relative;
+	background: linear-gradient(
+		150.06deg,
+		rgba(255, 255, 255, 0.6) 3.77%,
+		rgba(255, 255, 255, 0) 47.42%,
+		rgba(255, 255, 255, 0.71) 102.37%
+	);
+	border: 3px solid #ffffff;
+	border-radius: 40px;
+	display: grid;
+	grid-template-columns: 100%;
+	align-self: center;
+	justify-self: end;
+	padding: 1.5rem 1rem;
+}
+.sliderControls {
+	font-family: "Black Han Sans", Arial, Helvetica, sans-serif;
+	margin-top: 1rem;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-items: center;
+	align-items: center;
+	place-self: center;
+	color: #fff;
+	font-size: 20px;
+}
+.slideNum {
+	margin: 0px 20px;
+}
+.ctrlBtn {
+	width: 30px;
+	cursor: pointer;
+}
+.heading {
+	color: #fff;
+	font-size: 40px;
+	font-family: "Black Han Sans", Arial, Helvetica, sans-serif;
+	margin-top: 6rem;
+}
+.keyCardArea {
+	display: grid;
+	margin: 2rem 0rem;
+}
+.keyCard {
+	border: 7px solid var(--ttw-pink);
+	padding: 1rem;
+	margin: 1rem;
+	border-radius: 20px;
+	position: relative;
+	background-color: var(--ttw-black);
+}
+
+.cardHeading {
+	color: #fff;
+	font-size: 20px;
+	font-family: "Black Han Sans", Arial, Helvetica, sans-serif;
+}
+.cardInfo {
+	color: #fff;
+	font-size: 16px;
+	font-family: "Lato", Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	text-align: left;
+}
+.hat {
+	position: relative;
+}
+.hat::before {
+	background-image: url("../images/hat.png");
+	position: absolute;
+	content: "";
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 0;
+	top: -4.2rem;
+	left: -2.2rem;
+}
+
+.roadmapSection .keyCard {
+	max-width: 300px;
+}
+.roadmapSection {
+	display: grid;
+}
+.roadmapArea {
+	position: relative;
+	justify-self: center;
+	margin-top: 4rem;
+}
+
+.roadmapArea .cardInfo {
+	font-size: 20px;
+	line-height: 1.8em;
+}
+
+@media only screen and (min-width: 981px) {
+	.keyCardArea {
+		grid-template-columns: repeat(12, 1fr);
+	}
+	.keyCard:nth-child(-1n + 3) {
+		grid-column: span 4;
+	}
+	.keyCard:nth-last-child(2) {
+		grid-row-start: 2;
+		grid-column: 3 / span 4;
+	}
+	.keyCard:nth-last-child(1) {
+		grid-row-start: 2;
+		grid-column: 7 / span 4;
+	}
+	.roadmapArea {
+		width: 784px;
+		height: 1700px;
+	}
+	.roadmap1 {
+		position: absolute;
+		left: 0%;
+	}
+	.roadmap1::before {
+		background-image: url("../images/line1.svg");
+		position: absolute;
+		content: "";
+		width: 200px;
+		height: 200px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		z-index: 0;
+
+		top: 48%;
+		right: -83%;
+
+		transform: rotate(-8deg);
+	}
+	.roadmap2 {
+		position: absolute;
+		top: 17.5rem;
+		right: 0%;
+	}
+	.roadmap2::before {
+		background-image: url("../images/line2.svg");
+		position: absolute;
+		content: "";
+		width: 300px;
+		height: 300px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		z-index: 0;
+		top: 100%;
+		right: 17%;
+	}
+	.roadmap3 {
+		position: absolute;
+		top: 37rem;
+		left: 6%;
+	}
+	.roadmap3::before {
+		background-image: url("../images/line3.svg");
+		position: absolute;
+		content: "";
+		width: 250px;
+		height: 250px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		z-index: 0;
+		top: 103%;
+		left: 19%;
+	}
+	.roadmap4 {
+		position: absolute;
+		right: 5%;
+		top: 61rem;
+	}
+	.roadmap5 {
+		position: absolute;
+		left: 0%;
+		top: 81rem;
+	}
+	.roadmap4::before {
+		background-image: url("../images/line2.svg");
+		position: absolute;
+		content: "";
+		width: 250px;
+		height: 250px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		z-index: 0;
+		top: 103%;
+		left: -9%;
+	}
+
+	.hand::after {
+		background-image: url("../images/hand.png");
+		position: absolute;
+		content: "";
+		width: 130px;
+		height: 130px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		z-index: 1;
+		top: -8rem;
+		left: 7.1rem;
+	}
+
+	.ghost::after {
+		background-image: url("../images/ghost.png");
+		position: absolute;
+		content: "";
+		width: 150px;
+		height: 150px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		z-index: 1;
+
+		top: -4.7rem;
+		left: -4.5rem;
+	}
+
+	.magic_hat::after {
+		background-image: url("../images/magic_hat.png");
+		position: absolute;
+		content: "";
+		width: 150px;
+		height: 150px;
+		background-repeat: no-repeat;
+		background-size: contain;
+		z-index: 1;
+		top: -5.7rem;
+		left: -4.5rem;
+	}
+}
+@media only screen and (max-width: 980px) {
+	.logoSection .imgSection img {
+		width: 200px;
+	}
+	.logoSection .imgSection::before {
+		width: 200px;
+		height: 200px;
+	}
+	.nameSection {
+		padding-top: 3rem;
+		font-size: 30px;
+	}
+	.introSection {
+		grid-template-columns: 100%;
+	}
+	.introTextArea {
+		width: 100%;
+		margin: 2rem 0rem 4rem 0rem;
+	}
+	.introText {
+		font-size: 20px;
+	}
+	.sliderImg {
+		width: 200px;
+		height: 200px;
+	}
+	.nftSliderArea {
+		justify-self: center;
+	}
+	.nftSliderArea::before {
+		width: 100px;
+		height: 100px;
+		top: -26%;
+		right: -7%;
+		transform: rotate(15deg);
+	}
+	.introTextArea {
+		place-self: center;
+	}
+	.introText {
+		text-align: center;
+	}
+	.discordLink {
+		justify-self: center;
+		text-decoration: none;
+	}
+	.keyCardArea {
+		grid-template-columns: 100%;
+	}
+	.keyCard {
+		grid-column: span 1 !important;
+	}
+	/* .keyCard:nth-child(-1n + 2),
+	.keyCard:nth-child(-1n + 4) {
+		grid-column: span 6;
+	}
+	.keyCard:nth-last-child(2),
+	.keyCard:nth-last-child(1) {
+		grid-row-start: 2;
+		grid-column: 4 / span 6;
+	} */
+}

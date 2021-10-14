@@ -1,0 +1,81 @@
+:root {
+	--ttw-black: #201f1f;
+	--ttw-pink: #ff003d;
+}
+@font-face {
+	font-family: "Black Han Sans";
+	font-weight: 400;
+	font-style: normal;
+	src: url("./fonts/BlackHanSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: 100;
+	font-style: normal;
+	src: url("./fonts/Lato-Thin.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: 100;
+	font-style: italic;
+	src: url("./fonts/Lato-ThinItalic.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: 200;
+	font-style: normal;
+	src: url("./fonts/Lato-Light.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: 200;
+	font-style: italic;
+	src: url("./fonts/Lato-LightItalic.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: 400;
+	font-style: normal;
+	src: url("./fonts/Lato-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: 400;
+	font-style: italic;
+	src: url("./fonts/Lato-Italic.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: 600;
+	font-style: normal;
+	src: url("./fonts/Lato-Bold.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: 600;
+	font-style: italic;
+	src: url("./fonts/Lato-BoldItalic.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: 800;
+	font-style: normal;
+	src: url("./fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	font-weight: 800;
+	font-style: italic;
+	src: url("./fonts/Lato-BlackItalic.ttf");
+}
+.pinkText {
+	color: var(--ttw-pink);
+}
+body {
+	background-color: var(--ttw-black);
+	min-width: 350px;
+}
+.container {
+	width: 80%;
+	margin: 0px auto;
+}
