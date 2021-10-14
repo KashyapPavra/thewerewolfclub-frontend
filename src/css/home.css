@@ -66,9 +66,10 @@
 .sliderImg {
 	width: 350px;
 	height: 350px;
-	background-image: url("../images/nfts/1.png");
+	background-image: url("../images/wolves.gif");
 	background-repeat: no-repeat;
 	background-size: contain;
+	border-radius: 20px;
 }
 .nftSliderArea::before {
 	background-image: url("../images/headBand.png");
@@ -180,7 +181,9 @@
 	font-size: 20px;
 	line-height: 1.8em;
 }
-
+.discordLink {
+	text-decoration: none;
+}
 @media only screen and (min-width: 981px) {
 	.keyCardArea {
 		grid-template-columns: repeat(12, 1fr);
