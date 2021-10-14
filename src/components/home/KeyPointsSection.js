@@ -15,11 +15,11 @@ export default function KeyPointsSection() {
 					info='Yes you heard the right, our awesome creators are not money crazed assholes. They only want a small piece of the pie. We only take 5% of the 20% royalties for every sale on the secondary marketplace.'
 				/>
 				<KeyCard
-					heading='Weekly Minting'
+					heading='Weekly Minting Rewards'
 					info='We give our initial howlers a HUGE incentive. For all the 7777 people who minted the wolves, we give them the hard and shiny SOL every 7 days, right in their wallets.'
 				/>
 				<KeyCard
-					heading='Daily Staking'
+					heading='Daily Staking Rewards'
 					info='We are bringing staking to our howlers as well. We limit the number of staked werewolves at a given time to 1000. Each of the howlers who stake their wolves with us get daily rewards from our community treasury. The community treasury keeps getting heavier and heavier due to the 5% royalty on each secondary sale.'
 				/>
 				<KeyCard
