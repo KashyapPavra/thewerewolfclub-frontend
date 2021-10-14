@@ -1,6 +1,4 @@
 import React from "react";
-import downBtn from "../images/downBtn.svg";
-import upBtn from "../images/upBtn.svg";
 export default function Slider() {
 	return (
 		<div className='nftSliderArea sliderArea'>
